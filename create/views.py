@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect, HttpResponse, Http404
 import os
 from django.contrib.auth.models import User
 from create.forms import *
-from create.accounts.models import *
+from create.models import *
 from django.contrib.auth.tokens import default_token_generator
 from django.core.urlresolvers import reverse
 from django.template import RequestContext
